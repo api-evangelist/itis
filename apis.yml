@@ -1,0 +1,32 @@
+aid: itis
+name: ITIS
+description: "Integrated Taxonomic Information System"
+url: https://www.itis.gov/ws_description.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Science & Math"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Science And Math
+  - Public APIs
+apis:
+  - name: ITIS
+    description: "Integrated Taxonomic Information System"
+    humanURL: https://www.itis.gov/ws_description.html
+    baseURL: https://www.itis.gov/ws_description.html
+    tags:
+      - Science And Math
+    properties:
+      - type: Documentation
+        url: https://www.itis.gov/ws_description.html
+common:
+  - type: Website
+    url: https://www.itis.gov/ws_description.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
