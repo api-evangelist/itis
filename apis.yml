@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://www.itis.gov/ws_description.html
 common:
+  - type: DomainSecurity
+    url: security/itis-domain-security.yml
   - type: Website
     url: https://www.itis.gov/ws_description.html
   - type: PublicAPIsListing
