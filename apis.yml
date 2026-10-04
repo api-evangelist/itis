@@ -33,13 +33,14 @@ x-category: "Science & Math"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Science And Math
   - Public APIs
+  - Science
+  - Taxonomy
+  - Biodiversity
 apis:
   - name: ITIS
     description: "Integrated Taxonomic Information System"
     humanURL: https://www.itis.gov/ws_description.html
-    baseURL: https://www.itis.gov/ws_description.html
     tags:
       - Science And Math
     properties:
@@ -55,3 +56,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Science And Math
