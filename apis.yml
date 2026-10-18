@@ -41,7 +41,8 @@ apis:
   - name: ITIS
     description: "Integrated Taxonomic Information System"
     humanURL: https://www.itis.gov/ws_description.html
-    tags:
+    tags: []
+    tags_raw:
       - Science And Math
     properties:
       - type: Documentation
